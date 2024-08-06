@@ -1,13 +1,11 @@
-# Swisstronik Tesnet Techinal Task 4 (Mint a PERC20 Token)
+# Swisstronik Testnet 2.0 - Mint PERC-20 Token.
 
-link : [Click!](https://www.swisstronik.com/testnet2/dashboard)
+Link : [Click!](https://www.swisstronik.com/testnet2/dashboard)
 
-Feel free donate to my EVM address
+Swisstronik Testnet Address
 
-EVM :
-
-```bash
-0x9902C3A98Df4b240ad5496cC26F89bAb8058f4aE
+```
+0xE9b0493B3A058E467FFAA1c57b7b5DFD80d40C0d
 ```
 
 ## Steps
@@ -15,7 +13,7 @@ EVM :
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/Mnuralim/swisstronik-perc20-mint-token.git
+git clone https://github.com/skepticola/swisstronik-perc20-mint-token.git
 ```
 
 ```
@@ -33,10 +31,15 @@ npm install
 create .env file in root project
 
 ```bash
+touch .env
+```
+
+add this to your .env file
+```bash
 PRIVATE_KEY="your private key"
 ```
 
-### 4. Update Smart Contract (Skipp if you won't modify Token name)
+### 4. Update Smart Contract
 
 - Open contracts folder
 - Open PERC20Sample.sol file
@@ -66,17 +69,4 @@ npm run mint
 npm run transfer
 ```
 
-### 8. Finsihed
-
-- Open the deployed-adddress.ts (location in utils folder)
-- Copy the address and paste the address into testnet dashboard
-- Open the tx-hash.txt (location in utils folder)
-- Copy the address and paste the tx hash link into testnet dashboard
-- push this project to your github and paste your repository link in testnet dashboard
-
-by :
-github : [Mnuralim](https://github.com/Mnuralim)
-twitter : @Izzycracker04
-telegram : @fitriay19
-
-0xCd825ae0335190f4c8882DF16FB0577d478b3898
+### Finished.
